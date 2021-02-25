@@ -1,0 +1,25 @@
+{
+    "presets": [
+      ["@babel/preset-env", {
+        "modules": false,
+        "targets": {
+          "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+        },
+        "useBuiltIns": "usage",
+        "corejs": {
+          "version": 3, // 使用core-js@3
+          "proposals": true
+        }
+      }],
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ],
+      "@babel/preset-typescript"
+    ],
+    "plugins": [
+      // "@babel/plugin-transform-runtime"
+    ]
+  }
