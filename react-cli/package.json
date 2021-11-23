@@ -1,5 +1,5 @@
 {
-  "name": "react-app",
+  "name": "react-cli",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,10 +21,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "rules": {
-      "import/no-anonymous-default-export": [2, {"allowObject": true}]
-    }
+    ]
   },
   "browserslist": {
     "production": [

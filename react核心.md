@@ -1,3 +1,9 @@
+## JSX
+### 什么是JSX
+定义: JSX 是是⼀种JavaScript的语法扩展(JavaScript XML), 实质是React.createElement(component, props, ...children) 函数的语法糖
+作用: 创建虚拟DOM（元素）
+
+
 ### 什么是虚拟 DOM
 
 定义：用 js 对象表示 DOM 信息和结构，当状态变更的时候，重新渲染这个 js 的对象结构，这个 js 对象称为 virtual dom
